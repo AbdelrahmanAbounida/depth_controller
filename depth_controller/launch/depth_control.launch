@@ -1,0 +1,9 @@
+<launch>
+    <arg name="vehicle_name" default="bluerov" />
+
+    <group ns="$(arg vehicle_name)">
+        <node name="depth_setpoint_node" pkg="depth_controller" type="depth_setpoint.py" output="screen" />
+        <node name="depth_controller_node" pkg="depth_controller" type="depth_controller_node.py" output="screen" />
+        <!-- Add your own nodes here -->
+    </group>
+</launch>
