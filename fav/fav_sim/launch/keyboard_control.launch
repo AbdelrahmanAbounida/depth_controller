@@ -1,0 +1,5 @@
+<launch>
+    <arg name="vehicle_name" default="bluerov" />
+    <!-- start a node reading the keyboard input to control the vheicle -->
+    <node ns="$(arg vehicle_name)" name="keyboard" pkg="fav_sim" type="keyboard_control.py" />
+</launch>
