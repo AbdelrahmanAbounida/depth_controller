@@ -4,7 +4,7 @@
 [![React](https://img.shields.io/badge/REACT-blue?style=for-the-badge&logo=react&logoColor=white)](https://reactjs.org/)
 
 
-# ROV Assignment1 - DepthController
+#  DepthController
 
 This repository consists of four package:
 - **fav** : contains the main model , simulation environment ,gazebo plugins, etc.
